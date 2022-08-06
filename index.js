@@ -1,19 +1,3 @@
-// for (let age = 30; age < 40; age++) {
-//     console.log(`I'm ${age} years old. Happy birthday to me!`);
-   
-// }
-
-
-// const gifts = ['tedady bear', 'drone', 'doll'];
-// function wrapGifts(gifts) {
-//     for (let i = 0; i < gifts.length; i++) {
-//         console.log(`Wrapped ${gifts[i]} and added a bow!`);
-       
-//     }
-//     return gifts;
-// }
-
-// wrapGifts(gifts);
 
 function writeCards(array, string){
     const newArray = []
@@ -22,36 +6,7 @@ function writeCards(array, string){
     }
     return newArray;
 }
-console.log(writeCards(['Ada','Brendan','Ali'],"surprise"));
-
-
-
-
-
-
-// console.log(writeCards(['Ada','Brendan','Ali'],"Birthday"));
-
-// const gifts = ['teddy bear', 'drone', 'doll'];
-
-// function wrapGifts(gifts) {
-//     let i = 0;
-//     while (i < gifts.length) {
-//         console.log(`Wrapped ${gifts[i]} and added a bow!`);
-//         i++;
-//     }
-//     return gifts;
-// }
-
-// wrapGifts(gifts);
-
-// function plantGarden(){
-//     let keepWorking = true;
-//     while (keepWorking) {
-//         chooseSeedLocation();
-//         plant
-//     }
-// }
-
+console.log(writeCards(['Ada', 'Brendan', 'Ali'], "surprise"));
 
 function countDown(number){
 let i = number;
